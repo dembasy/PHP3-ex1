@@ -8,11 +8,14 @@ $ten = 0;
     <title>ex1</title>
   </head>
   <body>
+    <p>
 <?php
+// definition de la boucle avec la fonction while, on reprend la variable definie au dessus du TYPE, on l'echo et on l'incrémente.
 while ($ten < 10) {
   echo $ten;
   $ten++;
 }
  ?>
+ </p>
   </body>
 </html>
